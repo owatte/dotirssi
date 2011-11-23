@@ -11,7 +11,7 @@ replace login and password in ~/.irssi/config
 
     vi ~/.irssi/config
 
-final customization : add irssi scripts
+final customization : add irssi scripts and create links in the new dir ~/irssi/scripts autorun
 
     chmod +x ~/.irssi/customize.sh
     ~/.irssi/customize.sh
