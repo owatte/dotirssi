@@ -2,7 +2,7 @@
 
 sudo aptitude update && sudo aptitude safe-upgrade
 
-sudo aptitude install irssi-scripts
+sudo aptitude install irssi-scripts irssi-plugin-otr
 
 mkdir -p ~/.irssi/scripts/autorun
 
