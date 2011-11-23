@@ -1,5 +1,17 @@
-fwix's irssi configuration
+fwix's irssi configuration for GNU/Linux machines
 
 Installation : 
 
+clone from github
+
     git clone git://github.com/owatte/dotirssi.git ~/.irssi
+    mv ~/.irssi/config-distrib ~/.irssi/config
+    
+replace login and password in ~/.irssi/config    
+
+    vi ~/.irssi/config
+
+final customization : add irssi scripts
+
+    chmod +x ~/.irssi/customize.sh
+    ~/.irssi/customize.sh
